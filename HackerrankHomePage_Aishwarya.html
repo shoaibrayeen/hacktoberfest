@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>HackerHub</title>
+    <style>
+        /* STYLING HEADER */
+        .header-list li{
+            list-style: none;
+            float: left;
+            margin-top: 21px;
+            padding:0px 20px 20px 10px;
+        }
+        .header-list a{
+            color: white;
+        }
+        .header{
+            background-color: rgb(66, 63, 63);
+        }
+        .header-list{
+            padding:0%;
+        }
+        .srch{
+            float: right;
+            margin: 20px 40px 0px 0px;
+        }
+
+        /* STYLING MAIN CONTENT BOXES */
+        small p{ 
+            margin-top: 20px;
+        }
+        .heading{
+            margin-top: 40px;
+        }
+        .box1,.box2,.skills
+        {
+            border: 0.5px solid rgba(0, 0, 0, 0.301);
+            box-shadow: 0 15px 15px rgb(168, 165, 165);
+        }
+        .skills{
+            background-color:#eee;
+            padding:0px 0px 15px 50px;
+        }
+        .skills p{
+            margin-left: 20px;
+            padding-right: 60px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        .skill-logo{
+            margin-right: 20px;
+        }
+        .skills img{
+            height: 40px;
+            width: 40px;
+        }
+        .tut1,.tut2,.tut3
+        {
+            padding:50px 0px 50px 20px;
+            background-color: #eee;
+            border: 0.5px solid rgba(0, 0, 0, 0.301);
+            box-shadow: 0 15px 15px rgb(168, 165, 165);
+        }
+
+        /* STYLING FOOTER */
+        footer{
+            margin-top: 80px;
+            background-color: rgb(66, 63, 63);
+        }
+        footer li{
+            list-style: none;
+            margin-right: 30px;
+            color: white;
+        }
+        footer a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- HEADER -->
+        <div class="header">
+            <table>
+               <thead>
+                   <td>
+                    <a class="head-img" href="#"><img height="45px" width="80px" src="https://hrcdn.net/fcore/assets/brand/h_mark_sm-966d2b45e3.svg" alt=""></a> 
+                   </td>
+                   <td>
+                       <ul class="header-list">
+                           <li><a href="">PRACTICE</a></li>
+                           <li><a href="">COMPETE</a></li>
+                           <li><a href="">JOBS</a></li>
+                           <li><a href="">LEADERBOARD</a></li>
+                       </ul>
+                    </td>
+                    <div class="srch">
+                        <input type="search" name="Search Here" id="">
+                        <button type="submit">Search</button>  
+                    </div>
+               </thead> 
+            </table>
+        </div>    
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="container">
+            <div class="container">
+              <small><p>Practice</p></small>
+              <!-- TOP SECTION -->
+              <h3 class="heading">DashBoard</h3>
+              <div class="row">
+                <div class="col-lg-6 col-xs-6"><div class="jumbotron box1"><h2>Interview Preparation Kit</h2><br><small>Challenges That Prepare You Sit In Tech Companies And Problems That Are Frequently Asked By Top Techies.</small><br><br><button type="button" class="btn btn-primary" name="button">Start Preparation</button></div></div>
+                <div class="col-lg-6 col-xs-6"><div class="jumbotron box2"><h2> C++ </h2><br><small>Challenges That Prepare You Sit In Tech Companies And Problems That Are Frequently Asked By Top Techies.</small><br><br><button type="button" class="btn btn-primary" name="button">Continue Practice</button></div></div>
+              </div>
+
+            <!-- SKILLS SECTION-->
+            <h3 class="heading">Skills Available For Practice</h3>
+            <div class="container skills">
+            <table>
+                <thead>
+                    <td>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Algorithm.svg" alt="">Algorithms</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/C.svg" alt="">C</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Python.svg" alt="">Python</a></p>
+                    </td>
+                    <td>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/DataStructure.svg" alt="">Data Structures</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/C++.svg" alt="">C++</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Mathematics.svg" alt="">Mathematics</a></p>
+                    </td>
+                    <td>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Java.svg" alt="">  Java  </a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Ruby.svg" alt="">  Ruby</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/AI.svg" alt="">  AI/ML</a></p>
+                    </td>
+                    <td>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/SQL.svg" alt="">  SQL</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/LinuxShell.svg" alt="">  Linux Shell</a></p>
+                        <p><a href=""><img class="skill-logo" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/DataBase.svg" alt="">DataBase</a></p>
+                    </td>
+                </thead>
+            </table>
+            </div>
+            
+            <!-- TUTORIALS SECTION -->
+            <h3 class="heading">Tutorials</h3>
+            <div class="row">
+               <div class="col-xs-4 col-lg-4">
+                  <div class="container tut1">
+                  <h3><b>Data Science </b></h3><br>
+                  <small>Learn Basics Of Pragramming With This Tutorial.</small><br><br>
+                  <button class="btn btn-primary" name="button">Start Tutorial</button>
+                  </div>
+               </div>
+
+               <div class="col-xs-4 col-lg-4">
+                  <div class="container tut2">
+                  <h3><b>30  Days  Of  Code </b></h3><br>
+                  <small>Learn Basics Of Pragramming With This Tutorial.</small><br><br>
+                  <button class="btn btn-primary" name="button">Start Tutorial</button>
+                  </div>
+               </div>
+
+               <div class="col-xs-4 col-lg-4">
+                 <div class="container tut3">
+                  <h3><b>Basics Of Coding</b></h3><br>
+                  <small>Learn Basics Of Pragramming With This Tutorial.</small><br><br>
+                  <button class="btn btn-primary" name="button">Start Tutorial</button>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="navbar justify-content-center">
+            <ul class="navbar justify-content-center">
+                <li>&copy; Coderrank 2020</li>
+                <li><a href="/home/tanmay/Desktop/HTML/Sample Form/simple_form.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
