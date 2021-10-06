@@ -1,17 +1,19 @@
 ## HacktoberFest Repository
-This repository is created for HacktoberFest Purpose Only.
+This repository is created only for HacktoberFest
 
-# How to contribute to this project
-you can contribute in this project very easily by following few steps. Don't worry... there is no need to know any programming language-related knowledge.
-You only have to know the Git and Git-hub, and that's it... Now we are ready to start contributing.
+### How to contribute to this project
+you can contribute in this project very easily by following few steps. 
+- Add a Solution file with **ProblemName_YourName.ProgrammingExtension**.
+- Make a PR using that file
 
-## Getting started
+### Getting started
 * star this repository (Click the star button in the top right of this page, beside the fork button)
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone your fork down to your local machine
 
+### How to make PR(s) using git
 ```markdown
-git clone https://github.com/your-username/hacktoberfest-2.git
+git clone https://github.com/shoaibrayeen/hacktoberfest.git
 
 ```
 * Create a branch
