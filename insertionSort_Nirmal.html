@@ -1,0 +1,32 @@
+<html>
+	<head>
+	<title>Insertion Sorting</title>
+	<center><h2>Insertion Sort </h2></center></head>
+	<body>
+		<form>
+			<input type="number" placeholder="size of array" id="1">
+			<input type="button" value="Enter element" onclick="input()"><br>
+		</form>
+		<script>
+			function input() {
+				var length = document.getElementById("1").value;
+				var array = [];
+				var temp = 0;
+				for(var i = 0 ; i < length ; i++ ) {
+					array[i]=parseInt(prompt("Enter " + (i+1) + " Element \t:")); 
+				}
+				alert("Entered Array : " + array );		
+				for ( var i = 1 ; i < length ; ++i ) {
+					for ( var j = i ; j >= 0 ; --j ) {
+						if ( array[j-1] > array[j] ) {
+						temp = array[j-1] ;
+						array[j-1] = array[j] ;
+						array[j] = temp ;
+						} 
+					}
+				}
+				alert("Sorted Array : " + array);
+			}
+		</script>
+	</body>
+</html>
