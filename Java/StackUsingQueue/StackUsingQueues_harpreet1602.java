@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class StackUsingQueues_harpreet1602{
     LinkedList<Integer> q1 = new LinkedList<>();
